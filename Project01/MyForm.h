@@ -437,11 +437,11 @@ namespace Project01 {
 			// 
 			this->textBoxOperator->BackColor = System::Drawing::SystemColors::Control;
 			this->textBoxOperator->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBoxOperator->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->textBoxOperator->Font = (gcnew System::Drawing::Font(L"Times New Roman", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBoxOperator->Location = System::Drawing::Point(301, 8);
+			this->textBoxOperator->Location = System::Drawing::Point(359, 2);
 			this->textBoxOperator->Name = L"textBoxOperator";
-			this->textBoxOperator->Size = System::Drawing::Size(54, 20);
+			this->textBoxOperator->Size = System::Drawing::Size(54, 29);
 			this->textBoxOperator->TabIndex = 22;
 			this->textBoxOperator->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
 			// 
@@ -596,7 +596,7 @@ namespace Project01 {
 				static_cast<System::Byte>(0)));
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
-			this->Text = L"MyForm";
+			this->Text = L"Calculator";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
